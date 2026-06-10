@@ -7,3 +7,4 @@ BOOK/npm/letsencrypt/
 # Trackear explícitamente backups y logs (aunque sean binarios)
 !BACKUPS/
 !logs/
+bin/

@@ -1,0 +1,9 @@
+# Excluir datos del stack Docker (volúmenes, no se versiona)
+BOOK/bookstack/
+BOOK/db/
+BOOK/npm/data/
+BOOK/npm/letsencrypt/
+
+# Trackear explícitamente backups y logs (aunque sean binarios)
+!BACKUPS/
+!logs/

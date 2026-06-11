@@ -114,3 +114,28 @@
 [2026-06-11 16:46:38]::[Hermes]::[LIMPIEZA] - Borrado: /home/paco/CONOCIMIENTO/BACKUPS/20260610-190400
 [2026-06-11 16:46:38]::[Hermes]::[LIMPIEZA] - Limpieza completada.
 [2026-06-11 16:46:38]::[Hermes]::[GIT] - Subiendo backup al repositorio.
+[2026-06-11 16:49:22]::[Hermes]::[GIT] - Backup subido correctamente.
+[2026-06-11 16:49:22]::[Hermes]::[FIN] - ✅ Backup completado en /home/paco/CONOCIMIENTO/BACKUPS/20260611-164628
+[2026-06-11 16:50:00]::[Hermes]::[INICIO] - Backup iniciado con timestamp 20260611-165000
+[2026-06-11 16:50:00]::[Hermes]::[CAMBIOS] - Cambios detectados respecto al último backup. Procediendo.
+[2026-06-11 16:50:00]::[Hermes]::[PREPARACION] - Directorio de backup creado: /home/paco/CONOCIMIENTO/BACKUPS/20260611-165000
+[2026-06-11 16:50:00]::[Hermes]::[DOCKER] - El contenedor bookstack_db ya estaba activo.
+[2026-06-11 16:50:00]::[Hermes]::[MARIADB] - Esperando a que MariaDB esté lista...
+[2026-06-11 16:50:00]::[Hermes]::[MARIADB] - MariaDB operativa.
+[2026-06-11 16:50:00]::[Hermes]::[BACKUP_DB] - Iniciando dump de bookstackapp.
+[2026-06-11 16:50:01]::[Hermes]::[BACKUP_DB] - Dump completado: /home/paco/CONOCIMIENTO/BACKUPS/20260611-165000/bookstackapp.sql.gz
+[2026-06-11 16:50:01]::[Hermes]::[DOCKER] - Parando stack para backup consistente de ficheros.
+[2026-06-11 16:50:08]::[Hermes]::[DOCKER] - Stack parado.
+[2026-06-11 16:50:08]::[Hermes]::[BACKUP_FILES] - Comprimiendo ficheros BookStack.
+[2026-06-11 16:50:10]::[Hermes]::[BACKUP_FILES] - Compresión BookStack completada.
+[2026-06-11 16:50:10]::[Hermes]::[BACKUP_NPM] - Comprimiendo datos de Nginx Proxy Manager.
+[2026-06-11 16:50:10]::[Hermes]::[BACKUP_NPM] - Compresión NPM completada.
+[2026-06-11 16:50:10]::[Hermes]::[DOCKER] - Reiniciando stack.
+[2026-06-11 16:50:11]::[Hermes]::[DOCKER] - Stack arrancado.
+[2026-06-11 16:50:11]::[Hermes]::[BACKUP_CONFIG] - Copiado compose.yaml
+[2026-06-11 16:50:11]::[Hermes]::[BACKUP_CONFIG] - Copiado .env
+[2026-06-11 16:50:11]::[Hermes]::[INFO] - Fichero info.txt generado.
+[2026-06-11 16:50:11]::[Hermes]::[LIMPIEZA] - Conservando los últimos 3 backups.
+[2026-06-11 16:50:11]::[Hermes]::[LIMPIEZA] - Borrado: /home/paco/CONOCIMIENTO/BACKUPS/20260611-163325
+[2026-06-11 16:50:11]::[Hermes]::[LIMPIEZA] - Limpieza completada.
+[2026-06-11 16:50:11]::[Hermes]::[GIT] - Subiendo backup al repositorio.

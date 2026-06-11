@@ -19,3 +19,75 @@
 [2026-06-10 18:58:46]::[Hermes]::[LIMPIEZA] - Conservando los últimos 3 backups.
 [2026-06-10 18:58:46]::[Hermes]::[LIMPIEZA] - Limpieza completada.
 [2026-06-10 18:58:46]::[Hermes]::[GIT] - Subiendo backup al repositorio.
+[2026-06-10 18:59:01]::[Hermes]::[GIT] - Backup subido correctamente.
+[2026-06-10 18:59:01]::[Hermes]::[FIN] - ✅ Backup completado en /home/paco/CONOCIMIENTO/BACKUPS/20260610-185830
+[2026-06-10 19:03:29]::[Hermes]::[INICIO] - Backup iniciado con timestamp 20260610-190329
+[2026-06-10 19:03:29]::[Hermes]::[CAMBIOS] - Cambios detectados respecto al último backup. Procediendo.
+[2026-06-10 19:03:29]::[Hermes]::[PREPARACION] - Directorio de backup creado: /home/paco/CONOCIMIENTO/BACKUPS/20260610-190329
+[2026-06-10 19:04:00]::[Hermes]::[INICIO] - Backup iniciado con timestamp 20260610-190400
+[2026-06-10 19:04:00]::[Hermes]::[PREPARACION] - Directorio de backup creado: /home/paco/CONOCIMIENTO/BACKUPS/20260610-190400
+[2026-06-10 19:04:01]::[Hermes]::[DOCKER] - El contenedor bookstack_db ya estaba activo.
+[2026-06-10 19:04:01]::[Hermes]::[MARIADB] - Esperando a que MariaDB esté lista...
+[2026-06-10 19:04:01]::[Hermes]::[MARIADB] - MariaDB operativa.
+[2026-06-10 19:04:01]::[Hermes]::[BACKUP_DB] - Iniciando dump de bookstackapp.
+[2026-06-10 19:04:01]::[Hermes]::[BACKUP_DB] - Dump completado: /home/paco/CONOCIMIENTO/BACKUPS/20260610-190400/bookstackapp.sql.gz
+[2026-06-10 19:04:01]::[Hermes]::[DOCKER] - Parando stack para backup consistente de ficheros.
+[2026-06-10 19:04:08]::[Hermes]::[DOCKER] - Stack parado.
+[2026-06-10 19:04:08]::[Hermes]::[BACKUP_FILES] - Comprimiendo ficheros BookStack.
+[2026-06-10 19:04:10]::[Hermes]::[BACKUP_FILES] - Compresión BookStack completada.
+[2026-06-10 19:04:10]::[Hermes]::[BACKUP_NPM] - Comprimiendo datos de Nginx Proxy Manager.
+[2026-06-10 19:04:10]::[Hermes]::[BACKUP_NPM] - Compresión NPM completada.
+[2026-06-10 19:04:10]::[Hermes]::[DOCKER] - Reiniciando stack.
+[2026-06-10 19:04:11]::[Hermes]::[DOCKER] - Stack arrancado.
+[2026-06-10 19:04:11]::[Hermes]::[BACKUP_CONFIG] - Copiado compose.yaml
+[2026-06-10 19:04:11]::[Hermes]::[BACKUP_CONFIG] - Copiado .env
+[2026-06-10 19:04:11]::[Hermes]::[INFO] - Fichero info.txt generado.
+[2026-06-10 19:04:11]::[Hermes]::[LIMPIEZA] - Conservando los últimos 3 backups.
+[2026-06-10 19:04:11]::[Hermes]::[LIMPIEZA] - Limpieza completada.
+[2026-06-10 19:04:11]::[Hermes]::[GIT] - Subiendo backup al repositorio.
+[2026-06-11 16:33:25]::[Hermes]::[INICIO] - Backup iniciado con timestamp 20260611-163325
+[2026-06-11 16:33:25]::[Hermes]::[CAMBIOS] - Cambios detectados respecto al último backup. Procediendo.
+[2026-06-11 16:33:25]::[Hermes]::[PREPARACION] - Directorio de backup creado: /home/paco/CONOCIMIENTO/BACKUPS/20260611-163325
+[2026-06-11 16:33:25]::[Hermes]::[DOCKER] - El contenedor bookstack_db ya estaba activo.
+[2026-06-11 16:33:25]::[Hermes]::[MARIADB] - Esperando a que MariaDB esté lista...
+[2026-06-11 16:33:25]::[Hermes]::[MARIADB] - MariaDB operativa.
+[2026-06-11 16:33:25]::[Hermes]::[BACKUP_DB] - Iniciando dump de bookstackapp.
+[2026-06-11 16:33:25]::[Hermes]::[BACKUP_DB] - Dump completado: /home/paco/CONOCIMIENTO/BACKUPS/20260611-163325/bookstackapp.sql.gz
+[2026-06-11 16:33:25]::[Hermes]::[DOCKER] - Parando stack para backup consistente de ficheros.
+[2026-06-11 16:33:32]::[Hermes]::[DOCKER] - Stack parado.
+[2026-06-11 16:33:32]::[Hermes]::[BACKUP_FILES] - Comprimiendo ficheros BookStack.
+[2026-06-11 16:33:34]::[Hermes]::[BACKUP_FILES] - Compresión BookStack completada.
+[2026-06-11 16:33:34]::[Hermes]::[BACKUP_NPM] - Comprimiendo datos de Nginx Proxy Manager.
+[2026-06-11 16:33:34]::[Hermes]::[BACKUP_NPM] - Compresión NPM completada.
+[2026-06-11 16:33:34]::[Hermes]::[DOCKER] - Reiniciando stack.
+[2026-06-11 16:33:35]::[Hermes]::[DOCKER] - Stack arrancado.
+[2026-06-11 16:33:35]::[Hermes]::[BACKUP_CONFIG] - Copiado compose.yaml
+[2026-06-11 16:33:35]::[Hermes]::[BACKUP_CONFIG] - Copiado .env
+[2026-06-11 16:33:35]::[Hermes]::[INFO] - Fichero info.txt generado.
+[2026-06-11 16:33:35]::[Hermes]::[LIMPIEZA] - Conservando los últimos 3 backups.
+[2026-06-11 16:33:35]::[Hermes]::[LIMPIEZA] - Borrado: /home/paco/CONOCIMIENTO/BACKUPS/20260610-185830
+[2026-06-11 16:33:35]::[Hermes]::[LIMPIEZA] - Limpieza completada.
+[2026-06-11 16:33:35]::[Hermes]::[GIT] - Subiendo backup al repositorio.
+[2026-06-11 16:35:49]::[Hermes]::[INICIO] - Backup iniciado con timestamp 20260611-163549
+[2026-06-11 16:35:49]::[Hermes]::[CAMBIOS] - Cambios detectados respecto al último backup. Procediendo.
+[2026-06-11 16:35:49]::[Hermes]::[PREPARACION] - Directorio de backup creado: /home/paco/CONOCIMIENTO/BACKUPS/20260611-163549
+[2026-06-11 16:35:49]::[Hermes]::[DOCKER] - El contenedor bookstack_db ya estaba activo.
+[2026-06-11 16:35:49]::[Hermes]::[MARIADB] - Esperando a que MariaDB esté lista...
+[2026-06-11 16:35:50]::[Hermes]::[MARIADB] - MariaDB operativa.
+[2026-06-11 16:35:50]::[Hermes]::[BACKUP_DB] - Iniciando dump de bookstackapp.
+[2026-06-11 16:35:50]::[Hermes]::[BACKUP_DB] - Dump completado: /home/paco/CONOCIMIENTO/BACKUPS/20260611-163549/bookstackapp.sql.gz
+[2026-06-11 16:35:50]::[Hermes]::[DOCKER] - Parando stack para backup consistente de ficheros.
+[2026-06-11 16:35:57]::[Hermes]::[DOCKER] - Stack parado.
+[2026-06-11 16:35:57]::[Hermes]::[BACKUP_FILES] - Comprimiendo ficheros BookStack.
+[2026-06-11 16:35:59]::[Hermes]::[BACKUP_FILES] - Compresión BookStack completada.
+[2026-06-11 16:35:59]::[Hermes]::[BACKUP_NPM] - Comprimiendo datos de Nginx Proxy Manager.
+[2026-06-11 16:35:59]::[Hermes]::[BACKUP_NPM] - Compresión NPM completada.
+[2026-06-11 16:35:59]::[Hermes]::[DOCKER] - Reiniciando stack.
+[2026-06-11 16:35:59]::[Hermes]::[DOCKER] - Stack arrancado.
+[2026-06-11 16:35:59]::[Hermes]::[BACKUP_CONFIG] - Copiado compose.yaml
+[2026-06-11 16:35:59]::[Hermes]::[BACKUP_CONFIG] - Copiado .env
+[2026-06-11 16:35:59]::[Hermes]::[INFO] - Fichero info.txt generado.
+[2026-06-11 16:35:59]::[Hermes]::[LIMPIEZA] - Conservando los últimos 3 backups.
+[2026-06-11 16:35:59]::[Hermes]::[LIMPIEZA] - Borrado: /home/paco/CONOCIMIENTO/BACKUPS/20260610-190329
+[2026-06-11 16:35:59]::[Hermes]::[LIMPIEZA] - Limpieza completada.
+[2026-06-11 16:35:59]::[Hermes]::[GIT] - Subiendo backup al repositorio.

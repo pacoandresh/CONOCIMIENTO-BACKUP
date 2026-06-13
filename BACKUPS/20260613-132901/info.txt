@@ -1,0 +1,14 @@
+Backup timestamp : 20260613-132901
+Date ISO         : 2026-06-13T13:29:11+02:00
+Host             : Hermes
+DB container     : bookstack_db
+DB name          : bookstackapp
+Book dir         : /home/paco/CONOCIMIENTO/BOOK
+Backup dir       : /home/paco/CONOCIMIENTO/BACKUPS/20260613-132901
+--- Ficheros ---
+total 42M
+-rw-r--r-- 1 root root  42M Jun 13 13:29 bookstack_files.tar.gz
+-rw-r--r-- 1 root root 360K Jun 13 13:29 bookstackapp.sql.gz
+-rw-r--r-- 1 root root 1.4K Jun 13 13:29 compose.yaml
+-rw-r--r-- 1 root root  302 Jun 13 13:29 info.txt
+-rw-r--r-- 1 root root 135K Jun 13 13:29 npm_files.tar.gz

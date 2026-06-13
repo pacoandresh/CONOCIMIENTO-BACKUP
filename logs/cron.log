@@ -97,3 +97,128 @@ time="2026-06-12T18:59:37+02:00" level=warning msg="a network with name bookstac
 [2026-06-12 18:59:37]::[Hermes]::[LIMPIEZA] - Borrado: /home/paco/CONOCIMIENTO/BACKUPS/20260611-165000
 [2026-06-12 18:59:37]::[Hermes]::[LIMPIEZA] - Limpieza completada.
 [2026-06-12 18:59:37]::[Hermes]::[GIT] - Subiendo backup al repositorio.
+[main 64441ad] backup 20260612-185927 — BookStack + NPM
+ 11 files changed, 113 insertions(+), 14 deletions(-)
+ delete mode 100644 BACKUPS/20260611-165000/bookstackapp.sql.gz
+ delete mode 100644 BACKUPS/20260611-165000/info.txt
+ delete mode 100644 BACKUPS/20260611-165000/npm_files.tar.gz
+ rename BACKUPS/{20260611-165000 => 20260612-185927}/.env (100%)
+ rename BACKUPS/{20260611-165000 => 20260612-185927}/bookstack_files.tar.gz (99%)
+ create mode 100644 BACKUPS/20260612-185927/bookstackapp.sql.gz
+ rename BACKUPS/{20260611-165000 => 20260612-185927}/compose.yaml (100%)
+ create mode 100644 BACKUPS/20260612-185927/info.txt
+ create mode 100644 BACKUPS/20260612-185927/npm_files.tar.gz
+no such identity: /root/.ssh/github_back: No such file or directory
+To github.com:pacoandresh/CONOCIMIENTO-BACKUP.git
+   ace5527..64441ad  main -> main
+[2026-06-12 18:59:53]::[Hermes]::[GIT] - Backup subido correctamente.
+[2026-06-12 18:59:53]::[Hermes]::[FIN] - ✅ Backup completado en /home/paco/CONOCIMIENTO/BACKUPS/20260612-185927
+bash: nv: command not found
+[2026-06-13 13:29:01]::[Hermes]::[INICIO] - Backup iniciado con timestamp 20260613-132901
+[2026-06-13 13:29:01]::[Hermes]::[CAMBIOS] - Cambios detectados respecto al último backup. Procediendo.
+[2026-06-13 13:29:01]::[Hermes]::[PREPARACION] - Directorio de backup creado: /home/paco/CONOCIMIENTO/BACKUPS/20260613-132901
+[2026-06-13 13:29:01]::[Hermes]::[DOCKER] - El contenedor bookstack_db ya estaba activo.
+[2026-06-13 13:29:01]::[Hermes]::[MARIADB] - Esperando a que MariaDB esté lista...
+[2026-06-13 13:29:01]::[Hermes]::[MARIADB] - MariaDB operativa.
+[2026-06-13 13:29:01]::[Hermes]::[BACKUP_DB] - Iniciando dump de bookstackapp.
+[2026-06-13 13:29:01]::[Hermes]::[BACKUP_DB] - Dump completado: /home/paco/CONOCIMIENTO/BACKUPS/20260613-132901/bookstackapp.sql.gz
+[2026-06-13 13:29:01]::[Hermes]::[DOCKER] - Parando stack para backup consistente de ficheros.
+ Container bookstack Stopping 
+ Container npm Stopping 
+ Container npm Stopped 
+ Container npm Removing 
+ Container npm Removed 
+ Container bookstack Stopped 
+ Container bookstack Removing 
+ Container bookstack Removed 
+ Container bookstack_db Stopping 
+ Container bookstack_db Stopped 
+ Container bookstack_db Removing 
+ Container bookstack_db Removed 
+ Network proxy Removing 
+ Network proxy Removed 
+[2026-06-13 13:29:08]::[Hermes]::[DOCKER] - Stack parado.
+[2026-06-13 13:29:08]::[Hermes]::[BACKUP_FILES] - Comprimiendo ficheros BookStack.
+[2026-06-13 13:29:10]::[Hermes]::[BACKUP_FILES] - Compresión BookStack completada.
+[2026-06-13 13:29:10]::[Hermes]::[BACKUP_NPM] - Comprimiendo datos de Nginx Proxy Manager.
+[2026-06-13 13:29:10]::[Hermes]::[BACKUP_NPM] - Compresión NPM completada.
+[2026-06-13 13:29:10]::[Hermes]::[DOCKER] - Reiniciando stack.
+time="2026-06-13T13:29:10+02:00" level=warning msg="a network with name bookstack_internal exists but was not created for project \"book\".\nSet `external: true` to use an existing network"
+ Network proxy Creating 
+ Network proxy Created 
+ Container bookstack_db Creating 
+ Container npm Creating 
+ Container bookstack_db Created 
+ Container bookstack Creating 
+ Container npm Created 
+ Container bookstack Created 
+ Container bookstack_db Starting 
+ Container npm Starting 
+ Container bookstack_db Started 
+ Container bookstack Starting 
+ Container npm Started 
+ Container bookstack Started 
+[2026-06-13 13:29:11]::[Hermes]::[DOCKER] - Stack arrancado.
+[2026-06-13 13:29:11]::[Hermes]::[BACKUP_CONFIG] - Copiado compose.yaml
+[2026-06-13 13:29:11]::[Hermes]::[BACKUP_CONFIG] - Copiado .env
+[2026-06-13 13:29:11]::[Hermes]::[INFO] - Fichero info.txt generado.
+[2026-06-13 13:29:11]::[Hermes]::[LIMPIEZA] - Conservando los últimos 3 backups.
+[2026-06-13 13:29:11]::[Hermes]::[LIMPIEZA] - Borrado: /home/paco/CONOCIMIENTO/BACKUPS/20260612-185603
+[2026-06-13 13:29:11]::[Hermes]::[LIMPIEZA] - Limpieza completada.
+[2026-06-13 13:29:11]::[Hermes]::[GIT] - Subiendo backup al repositorio.
+fatal: detected dubious ownership in repository at '/home/paco/CONOCIMIENTO'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/paco/CONOCIMIENTO
+[2026-06-13 13:31:09]::[Hermes]::[INICIO] - Backup iniciado con timestamp 20260613-133109
+[2026-06-13 13:31:09]::[Hermes]::[CAMBIOS] - Cambios detectados respecto al último backup. Procediendo.
+[2026-06-13 13:31:09]::[Hermes]::[PREPARACION] - Directorio de backup creado: /home/paco/CONOCIMIENTO/BACKUPS/20260613-133109
+[2026-06-13 13:31:09]::[Hermes]::[DOCKER] - El contenedor bookstack_db ya estaba activo.
+[2026-06-13 13:31:09]::[Hermes]::[MARIADB] - Esperando a que MariaDB esté lista...
+[2026-06-13 13:31:10]::[Hermes]::[MARIADB] - MariaDB operativa.
+[2026-06-13 13:31:10]::[Hermes]::[BACKUP_DB] - Iniciando dump de bookstackapp.
+[2026-06-13 13:31:10]::[Hermes]::[BACKUP_DB] - Dump completado: /home/paco/CONOCIMIENTO/BACKUPS/20260613-133109/bookstackapp.sql.gz
+[2026-06-13 13:31:10]::[Hermes]::[DOCKER] - Parando stack para backup consistente de ficheros.
+ Container bookstack Stopping 
+ Container npm Stopping 
+ Container npm Stopped 
+ Container npm Removing 
+ Container npm Removed 
+ Container bookstack Stopped 
+ Container bookstack Removing 
+ Container bookstack Removed 
+ Container bookstack_db Stopping 
+ Container bookstack_db Stopped 
+ Container bookstack_db Removing 
+ Container bookstack_db Removed 
+ Network proxy Removing 
+ Network proxy Removed 
+[2026-06-13 13:31:17]::[Hermes]::[DOCKER] - Stack parado.
+[2026-06-13 13:31:17]::[Hermes]::[BACKUP_FILES] - Comprimiendo ficheros BookStack.
+[2026-06-13 13:31:19]::[Hermes]::[BACKUP_FILES] - Compresión BookStack completada.
+[2026-06-13 13:31:19]::[Hermes]::[BACKUP_NPM] - Comprimiendo datos de Nginx Proxy Manager.
+[2026-06-13 13:31:19]::[Hermes]::[BACKUP_NPM] - Compresión NPM completada.
+[2026-06-13 13:31:19]::[Hermes]::[DOCKER] - Reiniciando stack.
+ Network proxy Creating 
+ Network proxy Created 
+time="2026-06-13T13:31:19+02:00" level=warning msg="a network with name bookstack_internal exists but was not created for project \"book\".\nSet `external: true` to use an existing network"
+ Container npm Creating 
+ Container bookstack_db Creating 
+ Container bookstack_db Created 
+ Container bookstack Creating 
+ Container npm Created 
+ Container bookstack Created 
+ Container bookstack_db Starting 
+ Container npm Starting 
+ Container bookstack_db Started 
+ Container bookstack Starting 
+ Container npm Started 
+ Container bookstack Started 
+[2026-06-13 13:31:20]::[Hermes]::[DOCKER] - Stack arrancado.
+[2026-06-13 13:31:20]::[Hermes]::[BACKUP_CONFIG] - Copiado compose.yaml
+[2026-06-13 13:31:20]::[Hermes]::[BACKUP_CONFIG] - Copiado .env
+[2026-06-13 13:31:20]::[Hermes]::[INFO] - Fichero info.txt generado.
+[2026-06-13 13:31:20]::[Hermes]::[LIMPIEZA] - Conservando los últimos 3 backups.
+[2026-06-13 13:31:20]::[Hermes]::[LIMPIEZA] - Borrado: /home/paco/CONOCIMIENTO/BACKUPS/20260612-185708
+[2026-06-13 13:31:20]::[Hermes]::[LIMPIEZA] - Limpieza completada.
+[2026-06-13 13:31:20]::[Hermes]::[GIT] - Subiendo backup al repositorio.
